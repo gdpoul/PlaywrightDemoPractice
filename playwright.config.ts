@@ -14,10 +14,13 @@ export default defineConfig({
      launchOptions:{
       args:['--allow-running-insecure-content']
      },
-     screenshot:"off",
-     video:"off",
+     screenshot:"on",
+     video:"on",
   },
-  retries:2,
+  reporter:[
+    ["html",{open:"never"}],
+  ],
+  retries:1,
 
   projects: [
     {

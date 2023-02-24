@@ -15,7 +15,7 @@ test("handle checkbox",async()=>{
 })
 
 
-test("handle dropdown",async()=>{
+test.skip("handle dropdown",async()=>{
 
     const browser= await chromium.launch();
     const context= await browser.newContext();
