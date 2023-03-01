@@ -6,6 +6,7 @@ test("Simple Alert", async({page})=>{
     page.on("dialog",(diolog)=>{
         console.log("alert message :"+diolog.message());
         diolog.accept();
+        diolog.message();
     })
     await simpleAlert?.click();
     // await page.click("#accept");

@@ -13,11 +13,10 @@ test("Frame Handle", async({page})=>{
         await innerframes[1].fill("input[name='email']","gdpoul@gmail.com"); 
     }
 
-  
 
     // if(frame !=null){
-    //     await frame?.fill("input[name='fname']","Ganesh");
-    //     await frame?.fill("input[name='lname']","Poul");
+    //     await frame.fill("input[name='fname']","Ganesh");
+    //     await frame.fill("input[name='lname']","Poul");
     // }
     // else throw new Error("No Such Frame"); 
 })
