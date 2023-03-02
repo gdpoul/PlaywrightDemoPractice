@@ -14,9 +14,10 @@ export default defineConfig({
      launchOptions:{
       args:['--allow-running-insecure-content']
      },
-     screenshot:"on",
+     screenshot:"only-on-failure",
      video:"on",
-  },
+         
+    },
   reporter:[
     ["html",{open:"never"}],
   ],
